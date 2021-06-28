@@ -18,7 +18,7 @@ jobs:
         run: sudo apt update && sudo apt install yarn
       - name: instaling dependencies
         run: yarn --cwd ./covid19002 install
-      - name: Build Shoe Store App
+      - name: Build covid19app
         run: yarn --cwd ./covid19002 build
       - name: Install Surge
         run: npm install -g surge
