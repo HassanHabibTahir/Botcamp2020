@@ -29,16 +29,14 @@ jobs:
           node-version: 12
 
       # Runs a set of commands using the runners shell
-      - name: changing directory
-        run: cd expense-tracker001
       - name: instaling dependencies
-        run: npm install
+        run: cd expense-tracker001 && npm install
       - name: build
-        run: npm run build
-      - name:  Install Surge
+        run: cd expense-tracker001 && npm run build
+      - name: Install Surge
         run: npm install -g surge
       - name: Deploying on surge
-        run: surge ./build project001.surge.sh --token ${{ secrets.TOKEN }}
+        run: surge ./expense-tracker00/build project001.surge.sh --token ${{ secrets.TOKEN }}
       
         
         
