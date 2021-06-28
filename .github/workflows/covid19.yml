@@ -30,10 +30,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: instaling dependencies
-        run: cd covid19 && npm install
+        run: cd covid19002 && npm install
       - name: build
-        run: cd covid19 && npm run build
+        run: cd covid19002 && npm run build
       - name: Install Surge
         run: npm install -g surge
       - name: Deploying on surge
-        run: surge ./covid19/build hassanproject002.surge.sh --token ${{ secrets.TOKEN }}
+        run: surge ./covid19002/build hassanproject002.surge.sh --token ${{ secrets.TOKEN }}
