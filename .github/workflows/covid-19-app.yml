@@ -27,11 +27,15 @@ jobs:
           node-version: 12
 
       # Runs a set of commands using the runners shell
+       - name: Prepare for Yarn Installation
+        run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+      - name: install yarn
+        run: sudo apt update && sudo apt install yarn
       - name: instaling dependencies
-        run: cd covid19002 && npm install
-      - name: build
-        run: cd covid19002 && npm run build
+        run: yarn --cwd ./covid19002 install
+      - name: Build Shoe Store App
+        run: yarn --cwd ./covid19002 build
       - name: Install Surge
         run: npm install -g surge
       - name: Deploying on surge
-        run: surge ./covid19002/build hassanproject001.surge.sh --token ${{ secrets.TOKEN }}
+        run: surge ./covid19002/build hassanprojectcoid002.surge.sh --token ${{ secrets.TOKEN }}
