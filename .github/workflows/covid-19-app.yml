@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+     runs-on: windows-latest
     name: Deploying to surge
     steps:
       - uses: actions/checkout@v2
@@ -12,14 +12,20 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: 12
-      - name: Prepare for Yarn Installation
-        run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-      - name: install yarn
-        run: sudo apt update && sudo apt install yarn
+
+          # Runs a set of commands using the runners shell
       - name: instaling dependencies
-        run: yarn --cwd ./covid19002 install
-      - name: Build Shoe Store App
-        run: yarn --cwd ./covid19002 build
+        run: cd covid19002  && npm install
+      - name: build
+        run: cd covid19002  && npm run build
+      # - name: Prepare for Yarn Installation
+      #   run: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+      # - name: install yarn
+      #   run: sudo apt update && sudo apt install yarn
+      # - name: instaling dependencies
+      #   run: yarn --cwd ./covid19002 install
+      # - name: Build Covid19 App
+      #   run: yarn --cwd ./covid19002 build
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
