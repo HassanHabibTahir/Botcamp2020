@@ -1,1 +1,1 @@
-quizeApp.surge.sh
+https://quizeapp.surge.sh/
