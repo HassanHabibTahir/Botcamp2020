@@ -1,0 +1,1066 @@
+@media (max-width: 1200px) {
+    .header .nav ul li {
+        margin-right: 30px;
+    }
+    .make .input input[type="text"] {
+        width: 203px;
+    }
+    .you_acc .right {
+        width: 490px;
+    }
+    .you_acc .stats .line:after {
+        left: 53%;
+    }
+    .referrals .block .prg {
+        width: 100%;
+    }
+    .referrals .block .left {
+        width: 466px;
+        margin-right: 30px;
+    }
+    .referrals .block .left .hint {
+        z-index: 3333;
+    }
+    .winners .item {
+        padding-left: 40px;
+    }
+    .winners .slides {
+        margin-left: -40px;
+    }
+    .condition .panel:before {
+        right: -310px;
+    }
+    .condition .panel .right {
+        margin-left: 30px;
+    }
+    .condition .panel .l1:before {
+        display: none;
+    }
+    .condition .panel .l1 {
+        width: 410px;
+    }
+    .condition .panel .t:before {
+        display: none;
+    }
+}
+
+@media (max-width: 1040px) {
+    .popup {
+        width: 98% !important;
+        left: 1% !important;
+        margin-left: 0 !important;
+    }
+    .code {
+        flex-wrap: wrap;
+    }
+    .code .left,
+    .code .right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .popup .balance .right .lock {
+        text-align: center !important;
+    }
+    .header .checkc a {
+        width: 100%;
+        text-align: center;
+    }
+    .popup .faq_content {
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+    .carsref .navs {
+        display: none;
+    }
+    .owl-carousel2 {
+        display: block;
+    }
+    .popup .white {
+        padding-top: 29px;
+    }
+    .popup .tabs,
+    .popup .tab_2 .refs .keys,
+    .popup .tab_2 .dopinfo .ll {
+        flex-wrap: wrap;
+    }
+    .popup .tab_2 .refs .keys a {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-bottom: 5px;
+    }
+    .popup .tab_3 .bonus {
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    .popup .text {
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-bottom: 25px;
+    }
+    .popup .tab_3 .grid,
+    .popup .tab_3 .bonus {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .popup .tab_3 .text {
+        padding-bottom: 0;
+    }
+    .popup .title,
+    .popup .tabs,
+    .popup .balance,
+    .popup .dopinfo,
+    .popup .tab_2 .links,
+    .popup .tab_2 .infos,
+    .popup .tab_2 .refs,
+    .popup .tab_3 .text,
+    .popup .tabs,
+    .popup .tab_3 .r,
+    .popup .tab_3 .r,
+    .popup .tab_4 {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+    .popup .tab_4 .banner .t {
+        flex-wrap: wrap;
+    }
+    .popup .tab_4 .banner .t .ks {
+        margin-top: 10px;
+    }
+    .popup .tab_4 .cc textarea {
+        height: 150px;
+    }
+    .popup .deposits .dep .d {
+        flex-wrap: wrap;
+    }
+    .popup .deposits .dep .d .am {
+        text-align: left;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .popup .deposits,
+    .popup.refs_str .head,
+    .popup.refs_str .sts,
+    .popup.refs_str .paginate {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .popup.refs_str .head span {
+        margin-left: 14px;
+    }
+    .popup.makedepo .title,
+    .popup.al .title {
+        padding-left: 0 !important;
+    }
+    .popup.makedepo .left,
+    .popup.makedepo .right,
+    .popup.al .white {
+        width: 100%;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .popup.refs_str .sts {
+        flex-wrap: wrap;
+    }
+    .popup.makedepo .right .lt {
+        margin-bottom: 20px;
+    }
+    .popup.refs_str .list .r {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .popup.refs_str .sts div {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .popup.refs_str .list .r {
+        flex-wrap: wrap;
+    }
+    .popup.refs_str .list .r div {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .popup .deposits .dep .earned {
+        flex-wrap: wrap;
+    }
+    .popup .deposits .dep .earned div {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .popup .tab_3 .r a {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+    }
+    .popup .tab_3 .hh {
+        display: none;
+    }
+    .popup .tab_3 .r {
+        flex-wrap: wrap;
+    }
+    .popup .tab_2 .dopinfo .ll .keys {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .popup .tab_2 .infos div.i {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .popup .tab_2 .links {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .popup .tab_2 .infos {
+        flex-wrap: wrap;
+    }
+    .popup .tab_2 .infos a {
+        width: 100%;
+    }
+    .popup .tabs {}
+    .popup .balance .right .k {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .popup .balance .right {
+        flex-wrap: wrap;
+    }
+    .popup .tabs a.active:before {
+        display: none;
+    }
+    .popup .tabs {
+        margin-bottom: 30px;
+    }
+    .popup .depinfo {
+        padding-bottom: 23px;
+        padding-left: 29px;
+        padding-right: 21px;
+    }
+    .popup .stat .line {
+        margin-left: 0;
+    }
+    .popup .stat:after {
+        display: none;
+    }
+    .popup .depinfo,
+    .popup .depinfo .right {
+        flex-wrap: wrap;
+    }
+    .popup .balance {
+        flex-wrap: wrap;
+    }
+    .popup .depinfo .right .tx,
+    .popup .depinfo .right {
+        width: 100%;
+    }
+    .popup .depinfo .right {
+        margin-left: 0;
+    }
+    .popup .tab_2 .refs .rf {
+        margin-top: 20px;
+    }
+    .popup .tab_2 .right,
+    .popup .dopinfo .right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .popup .dopinfo .right div {
+        width: 100%;
+    }
+    .popup .depinfo .right .tx {
+        margin-left: 0;
+        max-width: 100%;
+        width: 100%;
+        padding-bottom: 2px;
+        padding-left: 38px;
+        padding-top: 3px;
+        /* background: url(../images/warning-text.svg) no-repeat top left; */
+    }
+    .popup .depinfo .left {
+        margin-bottom: 20px;
+    }
+    .popup .tab_2 .links:before {
+        display: none;
+    }
+    .popup .tab_2 .links .left {
+        margin-bottom: 20px;
+    }
+    .popup .tab_2 .links {
+        flex-wrap: wrap;
+    }
+    .popup .tab_2 .links .left,
+    .popup .tab_2 .links .right {
+        width: 100%;
+    }
+    .popup .balance .left span {
+        word-break: break-word;
+    }
+    .popup .left,
+    .popup .right,
+    .popup .dopinfo .left,
+    .popup .dopinfo .right,
+    .popup .tab_2 .right {
+        width: 100%;
+    }
+    .popup .tab_2 .refs {
+        flex-wrap: wrap;
+    }
+    .popup .tab_2 .refs .rf {
+        width: 100%;
+    }
+    .popup .dopinfo .right {
+        margin-top: 15px;
+    }
+    .popup .dopinfo .right div {
+        margin-bottom: 8px;
+    }
+    .popup .balance .right {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .popup .balance .right .k {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .popup .d-flex {
+        flex-wrap: wrap;
+    }
+    .popup .stat .line {
+        padding-right: 60px;
+    }
+    .popup .dopinfo .left:after,
+    .popup .dopinfo .right:after {
+        display: none;
+    }
+    .tab_3 .d-flex {
+        flex-wrap: wrap;
+    }
+    .popup .tab_3 .r .info {
+        text-align: left;
+    }
+    .popup .tab_3 .r {
+        width: 100%;
+        padding-left: 50px;
+    }
+    .popup .tab_3 .bonus {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .popup .tab_2 .refs .rf:before {
+        display: none;
+    }
+    .popup .tab_3 .r {
+        margin-top: 15px;
+    }
+    .popup .tab_2 .right {
+        width: 400px;
+    }
+    .popup .tab_2 .dopinfo .right:after {
+        display: none;
+    }
+    .popup .tabs a {
+        margin-right: 15px;
+    }
+    .header .top .wallet span {
+        display: block;
+    }
+    .header .nav ul li:last-child {
+        margin-right: 0;
+    }
+    .header .nav ul {
+        display: none;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .header .nav ul li {
+        margin-top: 5px;
+        margin-bottom: 13px;
+        padding-bottom: 15px;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .burger {
+        display: block;
+    }
+    .nav.active .keys {
+        margin-left: -15px !important;
+    }
+    .header .nav ul {
+        margin-bottom: 20px;
+    }
+    .make,
+    .you_acc {
+        flex-wrap: wrap;
+    }
+    .make .right,
+    .make .left,
+    .you_acc .left,
+    .you_acc .right {
+        width: 100%;
+    }
+    .make .input input[type="text"] {
+        width: 100%;
+    }
+    .you_acc .stats .line:after {
+        left: 46%;
+    }
+    .condition .panel:before {
+        right: -550px;
+    }
+    .condition .panel .df {
+        flex-wrap: wrap;
+    }
+    .condition .panel .left,
+    .condition .panel .right {
+        width: 100%;
+    }
+    .condition .panel .right {
+        display: flex;
+        margin-left: 0;
+    }
+    .condition .panel .right .min {
+        margin-right: 30px;
+    }
+    .condition .panel .bg {
+        padding-top: 125px;
+    }
+    .condition .panel .p {
+        margin-bottom: 10px;
+    }
+    .condition .panel .a {
+        margin-top: 19px;
+    }
+    .condition .panel .right {
+        padding-top: 15px;
+    }
+    .condition .panel .min span,
+    .condition .panel .max span {
+        font-size: 14px;
+    }
+    .avpr .d-flex {
+        display: grid !important;
+        grid-template-columns: auto auto;
+    }
+    .avpr .ic {
+        margin-bottom: 30px;
+        flex-wrap: wrap !important;
+    width: 100% !important;
+    padding-right: 15px !important;
+    margin-right: 15px !important;
+    border-right: 0px solid #efefef !important;
+    }
+    .avpr .ic:before {
+        display: none;
+    }
+    .refinfo {
+        background: transparent;
+        padding-left: 0 !important;
+    }
+    .code .right {
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+    .footer .two .chats {
+        flex-wrap: wrap;
+    }
+    .footer .two .chats .chat {
+        margin-bottom: 15px;
+    }
+    .refinfo {
+        margin-left: 0 !important;
+    }
+    .header .left .icons .h1 {
+        margin-right: 59px;
+    }
+    .header {
+        background: #0D6575;
+    }
+    .nav ul {
+        display: none;
+    }
+    .navflow.active {
+        left: 0px;
+    }
+    .navflow {
+        display: block !important;
+    }
+    .navflow ul {
+        width: 100%;
+    }
+    .navflow ul li {
+        margin-top: 5px;
+        margin-bottom: 13px;
+        padding-bottom: 15px;
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .navflow {
+        box-shadow: 11px 0 30px rgba(0, 0, 0, 0.04);
+        -moz-transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        position: fixed;
+        top: 0px;
+        left: -300px;
+        width: 300px;
+        background: #fff;
+        padding: 20px;
+        height: 100%;
+        z-index: 24;
+    }
+    .navflow .burger {
+        /* background: url(../images/close_popup.svg) no-repeat; */
+        /* position: absolute; */
+        display: block;
+        height: 20px;
+        width: 20px;
+        background-size: contain;
+    }
+    .navflow li a {
+        color: #383838;
+    }
+    .popup .balance .right div,
+    .popup .tab_2 .dopinfo .ll,
+    .popup .tab_2 .infos div {
+        width: 100%;
+    }
+    .popup .balance .right div a,
+    .popup .tab_2 .dopinfo .ll .keys a,
+    .popup .tab_2 .infos div a {
+        text-align: center;
+        width: 100%;
+    }
+    .popup .dopinfo .right div {
+        margin-top: 10px;
+    }
+    .popup .stat {
+        width: 100%;
+    }
+    .carsref .navs .prev {
+        left: -30px;
+    }
+    .carsref {
+        max-width: none;
+        width: 100%;
+    }
+    .popup .depinfo .per {
+        margin-bottom: 60px;
+        padding-left: 60px;
+        position: relative;
+    }
+    .popup .depinfo .per .key {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        bottom: -60px;
+    }
+    .popup .depinfo .key a {
+        width: 100%;
+        text-align: center;
+    }
+    .condition .panel2 {
+        display: block;
+    }
+    .condition .panel {
+        display: none;
+    }
+    .paninfo2 .dvl {
+        flex-wrap: wrap;
+    }
+    .paninfo2 .dvl .d {
+        margin-right: 0;
+        width: 100%;
+    }
+    .paninfo2 .dvl .d .t {
+        margin-bottom: 3px;
+    }
+    .paninfo2 .dvl .d {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 0 !important;
+        margin-right: 0;
+    }
+    .avpr .ic {
+        border-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .avpr .ic {
+        padding-right: 0;
+        width: 100%;
+        margin-right: 0;
+    }
+    .distr .text {
+        text-align: justify;
+    }
+    .footer {
+        margin-top: 0;
+    }
+    .scroll-pane ul {
+        margin-top: -8px;
+    }
+    .jspPane {
+        width: 100%;
+    }
+    .hint div div {
+        left: auto !important;
+        right: 0px;
+    }
+    .main {
+        margin-top: -280px;
+    }
+    .footer .smart span {
+        display: block;
+        margin-left: 0;
+    }
+    .telegram_flow {
+        display: none;
+    }
+    .header .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header .top .lang {
+        flex-wrap: wrap;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .header .top .lang a {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    .header .top .lang a img {
+        width: 29px;
+        height: 29px;
+    }
+    .header .slide {
+        flex-wrap: wrap;
+    }
+    .header .left .text {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .header .right {
+        padding-left: 20px;
+    }
+    .header .left {
+        padding-bottom: 20px;
+    }
+    .header .percent {
+        width: 150px;
+        height: 150px;
+    }
+    .header .percent:before {
+        /* background-size: contain; */
+        width: 100% !important;
+        height: 100%;
+        background: url("../images/percent-bg.svg") no-repeat center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        content: '';
+        animation: 32s linear 0s normal none infinite running rot;
+        -webkit-animation: 32s linear 0s normal none infinite running rot;
+    }
+    .header .percent:after {
+        display: none;
+    }
+    .header .percent {
+        padding-top: 35px;
+        font-size: 14px;
+    padding-top: 86px;
+    width: 309px;
+    margin: 0 0 0 -50px !important;
+    color: #ffff;
+    font-size: 16px;
+    height: 262px;
+    text-align: center;
+    position: relative;
+    }
+    .header .percent span {
+        font-size: 30px;
+    }
+    .header .pinfo {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .header .pinfo div {
+        margin-bottom: 5px;
+    }
+    .header .dpinfo {
+        margin-top: 20px;
+    }
+    .header .dpinfo div div {
+        color: #fff;
+    }
+    .header .top {
+        margin-bottom: 20px;
+    }
+    .header .nav {
+        padding-bottom: 15px;
+    }
+    .header .left .logo {
+        margin-bottom: 20px;
+    }
+    .header .left .title {
+        font-size: 23px;
+        text-align: center;
+    }
+    .header .left .text,
+    .header .checkc {
+        text-align: center;
+    }
+    .header .left .icons {
+        justify-content: space-between;
+    }
+    .refinfo .r {
+        width: 100%;
+    }
+    .refinfo .r a {
+        width: 100%;
+        display: block;
+    }
+    .avpr .ic .text {
+        font-size: 15px;
+    }
+    .condition .text {
+        margin-bottom: 35px;
+    }
+    .make .left,
+    .make .right,
+    .you_acc .left,
+    .you_acc .right,
+    .referrals .block,
+    .winners .block {
+        padding-left: 30px;
+        padding-top: 35px;
+        padding-bottom: 27px;
+        padding-right: 29px;
+    }
+    .winners .block {
+        padding-bottom: 0 !important;
+    }
+    .winners .slides {
+        padding-bottom: 10px;
+    }
+    .winners {
+        margin-bottom: 50px;
+    }
+    .make .input .i {
+        flex-wrap: wrap;
+    }
+    .make .input input[type="submit"] {
+        display: block;
+        width: 100%;
+        height: 39px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .make .title2 a {
+        padding-left: 18px;
+        padding-right: 18px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .you_acc .stats .line div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .you_acc .stats .line:after {
+        display: none;
+    }
+    .you_acc .stats {
+        margin-top: 20px;
+    }
+    .referrals .text {
+        margin-bottom: 20px;
+    }
+    .referrals .block .d-flex {
+        flex-wrap: wrap;
+    }
+    .referrals .block .left,
+    .referrals .block .right {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .referrals .block .tx {
+        margin-top: 20px;
+    }
+    .referrals .right .name {
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .referrals .right ul li {
+        margin-top: 10px;
+    }
+    .avpr {
+        margin-bottom: 20px;
+    }
+    .refinfo .d-flex.align-items-center {
+        flex-wrap: wrap;
+    }
+    .refinfo {
+        padding-bottom: 20px;
+    }
+    .refinfo .r a {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .refinfo .list {
+        flex-wrap: wrap;
+    }
+    .refinfo .list div {
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    .distr {
+        margin-top: 20px;
+    }
+    .distr .linestr {
+        display: none;
+    }
+    .code .left .title {
+        font-size: 22px;
+    }
+    .code .left .sub {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .code .right {
+        margin-left: -100px;
+        width: auto;
+    }
+    .footer .first {
+        flex-wrap: wrap;
+    }
+    .footer .logo {
+        margin-bottom: 10px;
+    }
+    .footer .first {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .footer .two {
+        flex-wrap: wrap;
+    }
+    .footer .two .cc {
+        position: absolute;
+        top: 74px;
+        left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer .two .chats {
+        margin-top: 10px;
+    }
+    .footer .two .chats .chat span {
+        font-size: 14px;
+    }
+    .footer .two .chats .chat {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .avpr .ic {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .footer .logo {
+        background-position: center;
+        width: 100%;
+    }
+    .footer .smart {
+        margin-top: 50px;
+        padding-left: 0;
+        background-position: top center;
+        padding-top: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer .first {
+        border-bottom: 1px solid #2e3991;
+    }
+    .clipscode {
+        padding-bottom: 0;
+    }
+    .footer .two .chats .chat {
+        width: 100%;
+    }
+    .footer .two .chats .chat a {
+        /* background: url("../images/go-arrow-chat.svg") no-repeat right center; */
+    }
+    .header .left .icons {
+        display: none;
+    }
+    .header .left .logo {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .alert {
+        right: 10px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .footer .logo img{
+        display: none !important;
+    }
+    
+.header .top .wallet {
+    margin-top: 20px;
+    /* color: #ffffff;
+    font-size: 14px;
+    padding-left: 40px;
+    background: url("../images/smart-ico.svg") no-repeat left center; */
+}
+    .telegram_flow div.maint:before{
+        background-color: #456268 !important;
+    }
+    .bannerstab ul li{
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+    .MuiTab-root{
+        text-transform: lowercase !important;
+        padding: 3px 5px !important;
+        font-size: 12px !important;
+        line-height: 1.2 !important;
+    }
+    .popup .white .tx{
+        padding-left: 10px !important;
+    }
+    .popup .stat .line .hint{
+        margin-top: -10px !important;
+    }
+    .popup .stat .line{
+        margin-left: 0px !important;
+    }
+    .popup .dopinfo .left{
+        width: 100% !important;
+    }
+
+    .footer {
+        margin-top: 50px !important;
+    }
+    .clipscode{
+        padding-bottom: 20px !important;
+    }
+    .distr {
+        margin-top: 30px !important;
+    }
+    .panel2 .bg .percent{
+        top: 40px !important;
+    }
+    .panel2 .bg .container{
+        padding-top: 150px !important;
+    }
+
+    .large-nav{
+        display: none !important;
+    }
+    
+.code .right:before {
+    content: '';
+    left: 10px;
+    top: 10px;
+    width: 395px !important;
+    position: absolute;
+    height: 351px !important;
+    background: url("../images/code-bg.svg") no-repeat left top;
+}
+    .popup .dopinfo .left {
+        flex-wrap: wrap;
+    }
+    .popup .dopinfo .left div {
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .code {
+        margin-top: 20px;
+    }
+    .code .video {
+        background: url("") no-repeat left cover;
+        position: relative;
+        height: 404px;
+        width: 440px !important;
+        border-radius: 13px;
+        margin-left: -140px;
+        height: 344px;
+        overflow-x: hidden;
+    }
+    .code .right {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .code .video .logo {
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+    .code .right {
+        width: 100%;
+    }
+    .code .video a.w {
+        margin-top: 15px;
+        top: auto;
+        position: absolute;
+        left: 32%;
+        width: 200px !important;
+    }
+    .code .video {
+        padding-top: 70px;
+    }
+    .code .video .u {
+        margin-bottom: 18px;
+    }
+    .popup .balance .right .hint {
+        left: 0px;
+        margin-left: 0;
+    }
+    .popup .balance .right .in {
+        width: 100%;
+        left: 0px;
+        padding-top: 30px;
+        top: 20px;
+        min-width: 100%;
+    }
+
+    .header .pinfo {
+        margin-left: -40px !important;
+    }
+
+    .header .left{
+        padding-bottom: 60px !important;
+    }
+    
+    .header .bgpart .container .top{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        flex-wrap: nowrap !important;
+    }
+    
+    .header .bgpart .container .top .logo{
+        /* text-align: center !important; */
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .header .pinfo div {
+        font-size: 17px;
+    }
+    .header .dpinfo {
+        font-size: 15px;
+    }
+}

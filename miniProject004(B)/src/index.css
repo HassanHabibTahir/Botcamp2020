@@ -1,0 +1,191 @@
+/* @import "./assets/css/bootstrap.min.css"; */
+/* @import "./assets/css/fonts.css"; */
+@import "./assets/css/main.css";
+/* @import "./assets/css/media.css"; */
+/* @import "./assets/css/owl.carousel.min.css"; */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiTabs-flexContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-btns{
+  display: none;
+}
+
+@media screen and (max-width: 560px){
+  
+.bottom-btns{
+  display: block;
+  padding: 15px;
+  opacity: 0.9;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  .MuiTabs-flexContainer{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+}
+
+.bg-dark{
+  background-color: #096573 !important;
+}
+
+.login-icon{
+  display: none !important;
+}
+/* width: 18.66%;
+width: 37.66%;
+width: 56.66%;
+width: 75.66%;
+width: 100%; */
+.pr-1{
+  position: absolute;
+    width: 9.33%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-2{
+  position: absolute;
+    width: 18.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-3{
+  position: absolute;
+    width: 27.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-4{
+  position: absolute;
+    width: 37.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-5{
+  position: absolute;
+    width: 46.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+
+.pr-6{
+  position: absolute;
+    width: 57.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-7{
+  position: absolute;
+    width: 66.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-8{
+  position: absolute;
+    width: 75.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-9{
+  position: absolute;
+    width: 87.66%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+.pr-10{
+  position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(125, 137, 221, 0.5);
+    border-radius: 80px;
+    background-image: linear-gradient(270deg, #808ce1 0%, #6269b3 100%);
+}
+
+.MuiDrawer-paper{
+  background-color: #038A9C !important;
+}
+
+
+.bg-second{
+  /* background-color: #9f5f80; */
+}
+/* #583d72 bg dark */
+/* #051C55 */
+/* 0a043c */
+/* #03506f footer */ 
+/* #F89295 */
+/* #02899B */

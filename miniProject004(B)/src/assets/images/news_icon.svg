@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.683" y1="-0.14" x2="0.329" y2="1.007" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a8cdff"/>
+      <stop offset="1" stop-color="#6286fc"/>
+    </linearGradient>
+    <filter id="Path_9402" x="6" y="11" width="38" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-announcements">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="announcements" clip-path="url(#clip-announcements)">
+    <rect width="50" height="50" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_9402)">
+      <path id="Path_9402-2" data-name="Path 9402" d="M20,17a1,1,0,0,1-2,0V5a1,1,0,0,0-1-1H3A1,1,0,0,0,2,5V18a2,2,0,0,0,2,2H19a3,3,0,0,0,3-3V7H20ZM12,7h3V9H12Zm0,4h3v2H12ZM5,7h5v6H5ZM5,17V15H15v2Z" transform="translate(13 13)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="255 184 1121.3 425" style="enable-background:new 255 184 1121.3 425;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#456268;}
+	.st1{filter:url(#c);}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{opacity:0.47;}
+	.st4{fill:none;}
+	.st5{fill:none;stroke:#A5C2FF;stroke-width:30;}
+	.st6{fill:none;stroke:#FAA79D;stroke-width:20;}
+</style>
+<filter  width="364.029" height="265.236" filterUnits="userSpaceOnUse" id="c" x="0" y="130.137">
+	<feOffset  dy="10" input="SourceAlpha"></feOffset>
+	<feGaussianBlur  result="d" stdDeviation="15"></feGaussianBlur>
+	<feFlood  flood-opacity="0.361" flood-color="#a0b1ff"></feFlood>
+	<feComposite  operator="in" in2="d"></feComposite>
+	<feComposite  operator="over" in="SourceGraphic"></feComposite>
+</filter>
+<path class="st0" d="M402.3,184h974v192c0,38.7-31.3,70-70,70h-843c-72.3,0-131-58.7-131-131v-61C332.3,215.3,363.6,184,402.3,184z"
+	/>
+<g transform="matrix(1, 0, 0, 1, 798.75, 1751)" class="st1">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-289.3449" y1="-959.3414" x2="-289.0239" y2="-959.9835" gradientTransform="matrix(274.0285 0 0 -175.2371 78881.9922 -169462)">
+		<stop  offset="0" style="stop-color:#A8CDFF"/>
+		<stop  offset="1" style="stop-color:#968FFF"/>
+	</linearGradient>
+	<path class="st2" d="M-224.7-1247.4l-51.3-62.7c-19.5-21.7-52.8-23.5-74.5-4c0,0-0.1,0-0.1,0.1l-7.2,6.5
+		c-7.7,6.9-19.4,6.6-26.7-0.6l-58.1-58.4l16.7-16.1c3-2.9,3.1-7.6,0.2-10.6c-1.2-1.3-2.8-2.1-4.6-2.2l-60.1-6.4
+		c-4.1-0.4-7.8,2.5-8.2,6.7c0,0.4-0.1,0.9,0,1.3l4.3,60.3c0.3,4.1,3.9,7.2,8,6.9c1.8-0.1,3.4-0.9,4.7-2.1l16.8-16.2l63,63.3
+		c16.6,16.4,43.1,17,60.4,1.4l12.9-11.6c8.3-7.5,21.1-6.8,28.6,1.5c0,0,0,0,0,0l52.2,63.7L-224.7-1247.4z"/>
+</g>
+<g transform="translate(1142 1796)" class="st3">
+	<circle class="st4" cx="-353.8" cy="-1377" r="190"/>
+	<circle class="st5" cx="-353.8" cy="-1377" r="175"/>
+</g>
+<g transform="translate(969 1784)" class="st3">
+	<circle class="st4" cx="-457.3" cy="-1480.5" r="86.5"/>
+	<circle class="st6" cx="-457.3" cy="-1480.5" r="76.5"/>
+</g>
+</svg>

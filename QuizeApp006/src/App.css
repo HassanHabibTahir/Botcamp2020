@@ -1,0 +1,22 @@
+.QuizeApp {
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+.cards_Element {
+  width: 50rem;
+  height: auto;
+  padding: 2rem;
+  background-color: white;
+  margin: auto;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.next_que {
+  padding: 1rem;
+  margin-top: 1rem;
+  color: rgb(97, 9, 105);
+}
