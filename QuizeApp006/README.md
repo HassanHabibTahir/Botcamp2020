@@ -1,1 +1,1 @@
-http://neighborly-wren.surge.sh/
+https://quizeapp.surge.sh/
