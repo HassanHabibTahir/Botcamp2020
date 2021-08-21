@@ -9,7 +9,9 @@ interface ChildProps {
 
 const TimerButton = (props: any) => (
   <div className="button-container">
-    <p className="button-value">{props.buttonValue}</p>
+    <p className="button-value" onClick={props.buttonAction}>
+      {props.buttonValue}
+    </p>
   </div>
 );
 
