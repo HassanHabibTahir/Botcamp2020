@@ -9,6 +9,7 @@ interface State {
 }
 
 interface Props {}
+let myInterval: any;
 class Timer extends Component<Props, State> {
   constructor(props: any) {
     super(props);
@@ -28,7 +29,7 @@ class Timer extends Component<Props, State> {
       return;
     }
 
-    let myInterval = setInterval(() => {
+    myInterval = setInterval(() => {
       const { seconds, minutes } = this.state;
 
       if (seconds > 0) {
@@ -51,7 +52,7 @@ class Timer extends Component<Props, State> {
   }
 
   stopTimer() {
-    // clearInterval(this.myInterval);
+    clearInterval(myInterval);
     this.setState({ isOn: false });
   }
 
